@@ -1,0 +1,11 @@
+event=input("Enter the name of event: ")
+event_type=input("Enter the type of event: ")
+people=int(input("Enter the number of people expected: "))
+paid=input("Is it a paid entry? (Type Y or N) ")
+expenses=float(input("Enter the projected expenses (in lakhs) for this event: "))
+
+print("\n\nEvent Name:", event)
+print("Event Type:", event_type)
+print("Expected Count:", people)
+print("Paid Entry:", paid)
+print("Projected Expense: ",round(expenses,2),"L\n\n")

@@ -1,0 +1,5 @@
+total=int(input("Enter the total number of people: "))
+day1=total*(2/7)
+print("Number of attendees on day 1:" , int(day1))
+print("Number of attendees on day 1:" , int(day1*2))
+print("Number of attendees on day 1:" , int(day1/2))
