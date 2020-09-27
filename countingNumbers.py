@@ -23,4 +23,9 @@ print("Odds: ",oddCount)
 print("Evens: ",evenCount)
 print("Zeros: ",l1.count(0))
 
+print("Positives: ",positiveCount)
+print("Negatives: ",negativeCount)
+print("Odds: ",oddCount)
+print("Evens: ",evenCount)
+print("Zeros: ",l1.count(0))
 
