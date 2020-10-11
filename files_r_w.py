@@ -27,8 +27,3 @@ with open('text.txt','r') as file:
 for line in lines_list[::-1]:
    print(line,end="")
 
-
-
-
-
-# %%
