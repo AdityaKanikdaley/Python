@@ -3,8 +3,8 @@ import face_recognition
 import os
 import cv2
 
-KNOWN_FACES_DIR = "known_faces"
-UNKNOWN_FACES_DIR = "unknown_faces"
+KNOWN_FACES_DIR = 'D:\\Python\AI_Projects\\face1\\known_faces'
+UNKNOWN_FACES_DIR = 'unknown_faces'
 TOLERENCE = 0.6
 FRAME_THICKNESS = 3
 FONT_THICKNESS = 2
