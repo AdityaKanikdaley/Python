@@ -1,4 +1,8 @@
-ticket_code=input("\n\nEnter your ticket code: ")
+from os import system 
+
+system('cls')
+
+ticket_code=input("Enter your ticket code: ")
 ticket_type="Invalid Code !"    #defalut type
 if(ticket_code=='E' or ticket_code=='e'):
     ticket_type="Early Bird ticket !"
@@ -11,5 +15,4 @@ elif(ticket_code=='S' or ticket_code=='s'):
 elif(ticket_code=='C' or ticket_code=='c'):
     ticket_type="Child ticket !"
 print("Your ticket type is: ",ticket_type, "\n\n")
-
 
