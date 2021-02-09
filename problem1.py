@@ -9,5 +9,7 @@ avg3=float(input("Enter the average rating for show 3:  "))
 
 sum=(avg1+avg2+avg3)/3
 
+
+
 print("\n\nThe overall average rating for the show is:" , round(sum,2) , "\n\n")
 

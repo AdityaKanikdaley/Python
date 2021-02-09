@@ -17,3 +17,6 @@ print(img)
 # elif k == ord('s'):
 #     cv2.imwrite('lena_copy.png',img)
 
+
+
+
