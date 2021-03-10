@@ -1,7 +1,7 @@
 
 
 #*********************** while loop
-
+#%%
 fact=1
 num = int(input("Enter number: "))
 i=1
@@ -9,7 +9,7 @@ while(i<=num):
     fact = fact*i
     i = i+1
 print("Fact is:" , fact)
-
+#%%
 
 #*********************** for loop
 
@@ -23,3 +23,6 @@ print("Fact is:" , fact)
 
  
 
+
+
+# %%

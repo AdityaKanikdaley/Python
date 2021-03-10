@@ -1,3 +1,4 @@
+#%%
 basic=float(input("\n\nEnter your basic salary: "))
 if(basic<15000):
     HRA = (0.15*basic)
@@ -8,3 +9,4 @@ elif(basic>=15000):
 
 gross = basic+HRA+DA
 print("Your gross salary is:",round(gross,2),"\n\n") 
+# %%
